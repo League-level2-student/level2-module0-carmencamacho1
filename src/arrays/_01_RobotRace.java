@@ -30,7 +30,6 @@ while(raceOver == false) {
 	for(int a = 0; a < bot.length; a++) {
 		Random randNum = new Random();
 		bot[a].setSpeed(100);
-		bot[]
 		bot[a].move(randNum.nextInt(50));
 		if (bot[a].getY()<50) {
 			raceOver = true;
